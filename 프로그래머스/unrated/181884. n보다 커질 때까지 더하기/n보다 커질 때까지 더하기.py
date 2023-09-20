@@ -7,3 +7,14 @@ def solution(numbers, n):
         idx += 1 
         
     return answer
+
+#############
+
+def solution(numbers, n):
+    answer = 0
+    for i in numbers:
+        if answer > n:
+            pass
+        else:
+            answer += i
+    return answer
